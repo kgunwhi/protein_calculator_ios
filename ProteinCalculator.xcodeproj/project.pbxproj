@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DB4357C72DFBCFE300B27AD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB4357B12DFBCFE200B27AD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB4357B82DFBCFE200B27AD4;
+			remoteInfo = ProteinCalculator;
+		};
+		DB4357D12DFBCFE300B27AD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB4357B12DFBCFE200B27AD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB4357B82DFBCFE200B27AD4;
+			remoteInfo = ProteinCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB4357B92DFBCFE200B27AD4 /* ProteinCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProteinCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4357C62DFBCFE300B27AD4 /* ProteinCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProteinCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4357D02DFBCFE300B27AD4 /* ProteinCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProteinCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DB4357BB2DFBCFE200B27AD4 /* ProteinCalculator */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ProteinCalculator;
+			sourceTree = "<group>";
+		};
+		DB4357C92DFBCFE300B27AD4 /* ProteinCalculatorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ProteinCalculatorTests;
+			sourceTree = "<group>";
+		};
+		DB4357D32DFBCFE300B27AD4 /* ProteinCalculatorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ProteinCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB4357B62DFBCFE200B27AD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4357C32DFBCFE300B27AD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4357CD2DFBCFE300B27AD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB4357B02DFBCFE200B27AD4 = {
+			isa = PBXGroup;
+			children = (
+				DB4357BB2DFBCFE200B27AD4 /* ProteinCalculator */,
+				DB4357C92DFBCFE300B27AD4 /* ProteinCalculatorTests */,
+				DB4357D32DFBCFE300B27AD4 /* ProteinCalculatorUITests */,
+				DB4357BA2DFBCFE200B27AD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB4357BA2DFBCFE200B27AD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB4357B92DFBCFE200B27AD4 /* ProteinCalculator.app */,
+				DB4357C62DFBCFE300B27AD4 /* ProteinCalculatorTests.xctest */,
+				DB4357D02DFBCFE300B27AD4 /* ProteinCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB4357B82DFBCFE200B27AD4 /* ProteinCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4357DA2DFBCFE300B27AD4 /* Build configuration list for PBXNativeTarget "ProteinCalculator" */;
+			buildPhases = (
+				DB4357B52DFBCFE200B27AD4 /* Sources */,
+				DB4357B62DFBCFE200B27AD4 /* Frameworks */,
+				DB4357B72DFBCFE200B27AD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DB4357BB2DFBCFE200B27AD4 /* ProteinCalculator */,
+			);
+			name = ProteinCalculator;
+			packageProductDependencies = (
+			);
+			productName = ProteinCalculator;
+			productReference = DB4357B92DFBCFE200B27AD4 /* ProteinCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB4357C52DFBCFE300B27AD4 /* ProteinCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4357DD2DFBCFE300B27AD4 /* Build configuration list for PBXNativeTarget "ProteinCalculatorTests" */;
+			buildPhases = (
+				DB4357C22DFBCFE300B27AD4 /* Sources */,
+				DB4357C32DFBCFE300B27AD4 /* Frameworks */,
+				DB4357C42DFBCFE300B27AD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB4357C82DFBCFE300B27AD4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DB4357C92DFBCFE300B27AD4 /* ProteinCalculatorTests */,
+			);
+			name = ProteinCalculatorTests;
+			packageProductDependencies = (
+			);
+			productName = ProteinCalculatorTests;
+			productReference = DB4357C62DFBCFE300B27AD4 /* ProteinCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB4357CF2DFBCFE300B27AD4 /* ProteinCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4357E02DFBCFE300B27AD4 /* Build configuration list for PBXNativeTarget "ProteinCalculatorUITests" */;
+			buildPhases = (
+				DB4357CC2DFBCFE300B27AD4 /* Sources */,
+				DB4357CD2DFBCFE300B27AD4 /* Frameworks */,
+				DB4357CE2DFBCFE300B27AD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB4357D22DFBCFE300B27AD4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DB4357D32DFBCFE300B27AD4 /* ProteinCalculatorUITests */,
+			);
+			name = ProteinCalculatorUITests;
+			packageProductDependencies = (
+			);
+			productName = ProteinCalculatorUITests;
+			productReference = DB4357D02DFBCFE300B27AD4 /* ProteinCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB4357B12DFBCFE200B27AD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					DB4357B82DFBCFE200B27AD4 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					DB4357C52DFBCFE300B27AD4 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = DB4357B82DFBCFE200B27AD4;
+					};
+					DB4357CF2DFBCFE300B27AD4 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = DB4357B82DFBCFE200B27AD4;
+					};
+				};
+			};
+			buildConfigurationList = DB4357B42DFBCFE200B27AD4 /* Build configuration list for PBXProject "ProteinCalculator" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB4357B02DFBCFE200B27AD4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DB4357BA2DFBCFE200B27AD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB4357B82DFBCFE200B27AD4 /* ProteinCalculator */,
+				DB4357C52DFBCFE300B27AD4 /* ProteinCalculatorTests */,
+				DB4357CF2DFBCFE300B27AD4 /* ProteinCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB4357B72DFBCFE200B27AD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4357C42DFBCFE300B27AD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4357CE2DFBCFE300B27AD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB4357B52DFBCFE200B27AD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4357C22DFBCFE300B27AD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4357CC2DFBCFE300B27AD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB4357C82DFBCFE300B27AD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB4357B82DFBCFE200B27AD4 /* ProteinCalculator */;
+			targetProxy = DB4357C72DFBCFE300B27AD4 /* PBXContainerItemProxy */;
+		};
+		DB4357D22DFBCFE300B27AD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB4357B82DFBCFE200B27AD4 /* ProteinCalculator */;
+			targetProxy = DB4357D12DFBCFE300B27AD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DB4357D82DFBCFE300B27AD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = R2JMY6G466;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB4357D92DFBCFE300B27AD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = R2JMY6G466;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB4357DB2DFBCFE300B27AD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2JMY6G466;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ProteinCat;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gunwhi.ProteinCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB4357DC2DFBCFE300B27AD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2JMY6G466;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ProteinCat;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gunwhi.ProteinCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB4357DE2DFBCFE300B27AD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2JMY6G466;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gunwhi.ProteinCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProteinCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProteinCalculator";
+			};
+			name = Debug;
+		};
+		DB4357DF2DFBCFE300B27AD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2JMY6G466;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gunwhi.ProteinCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProteinCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProteinCalculator";
+			};
+			name = Release;
+		};
+		DB4357E12DFBCFE300B27AD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2JMY6G466;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gunwhi.ProteinCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProteinCalculator;
+			};
+			name = Debug;
+		};
+		DB4357E22DFBCFE300B27AD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2JMY6G466;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gunwhi.ProteinCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProteinCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB4357B42DFBCFE200B27AD4 /* Build configuration list for PBXProject "ProteinCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4357D82DFBCFE300B27AD4 /* Debug */,
+				DB4357D92DFBCFE300B27AD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB4357DA2DFBCFE300B27AD4 /* Build configuration list for PBXNativeTarget "ProteinCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4357DB2DFBCFE300B27AD4 /* Debug */,
+				DB4357DC2DFBCFE300B27AD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB4357DD2DFBCFE300B27AD4 /* Build configuration list for PBXNativeTarget "ProteinCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4357DE2DFBCFE300B27AD4 /* Debug */,
+				DB4357DF2DFBCFE300B27AD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB4357E02DFBCFE300B27AD4 /* Build configuration list for PBXNativeTarget "ProteinCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4357E12DFBCFE300B27AD4 /* Debug */,
+				DB4357E22DFBCFE300B27AD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB4357B12DFBCFE200B27AD4 /* Project object */;
+}
